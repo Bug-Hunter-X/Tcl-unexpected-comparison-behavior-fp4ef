@@ -1,0 +1,1 @@
+proc goodproc {x} {if {[string is double -strict $x] && [expr {$x == 0}]} {return 1} {return 0}} 
